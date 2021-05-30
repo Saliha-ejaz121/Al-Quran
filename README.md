@@ -11,7 +11,7 @@ I tried to practice:
 👉  Server Request Handling <br />
 <br />
 Home Page has the lists of Surahs <br />
-<img src= "./img/HomePage.png" width = 700px height = 350px>
+<img src= "./img/Homepage.png" width = 700px height = 350px>
 <br />
 Surah Page has list of all ayahs <br />
 <img src= "./img/SurahPage.png" width = 700px height = 300px>
