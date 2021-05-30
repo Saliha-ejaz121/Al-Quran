@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>AlQuran</title>
+    <style>
+        body{
+    margin : 0px;
+    box-sizing: border-box;
+    background-color: rgb(250, 174, 186);
+}
+.mainBox {
+    background-color:  rgb(247, 164, 178);
+    text-align: center;
+}
+
+.surahBox  {
+    font-size: 40px;
+    display: inline-block;
+    padding : 0px 10rem 0px 10rem;
+    border-radius: 20px;
+}
+a{
+    color : black;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    margin-top: 20px;
+    justify-content: center;
+    padding : 30px;
+    width : 50%;
+    margin-left: 23%;
+    justify-content: center;
+    background-color:  rgb(255, 159, 175);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+    </style>
+</head>
+<body>
+   
+    <div class ="mainBox">
+        <div class ="surahBox">
+           <p>Al Quran</p>
+        </div>
+    </div>
+    <div class ="surah">
+    {%surah%}
+    </div>
+   
+</body>
+</html>
